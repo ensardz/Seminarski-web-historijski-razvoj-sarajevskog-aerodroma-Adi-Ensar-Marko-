@@ -1,0 +1,491 @@
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+ font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+ line-height: 1,7em;
+}
+
+a{
+    color:#333;
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    padding-bottom:20px;
+}
+
+p {
+    margin:10px 0;
+}
+
+.div1{
+    margin:auto;
+    max-width: 80%;
+    overflow:auto;
+    padding:0 20px;
+    
+}
+
+.div1-kontakt{
+  margin:auto;
+  max-width: 80%;
+  height: 150px;
+  overflow:auto;
+}
+
+.div1-meni{
+  margin:auto;
+  max-width: 80%;
+  padding:0 20px;
+  height: 58px;
+}
+
+/*meni fiksiran*/
+#fix{
+  position: fixed;
+  padding:0;
+  top :0;
+  width: 100%
+}
+
+.fix{
+  position: fixed;
+  padding:0;
+  top :0;
+  width: 100%
+}
+
+.btn{
+    border: 1px;
+    display:inline-block;
+    font-size:18px;
+    color:#fff;
+    background:#333;
+    padding:13px 20px;
+    cursor:pointer;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(250, 248, 248);
+}
+
+#navigacijska-traka .logo:hover a{
+    color:#8ab9f7;
+}
+
+.btn:hover{
+    border: 1px;
+    background:#8ab9f7;
+    color:#333;
+    border-style: solid;
+    border-color: black;
+}
+.btn-bijeli{
+    border: 1px;
+    background: #f4f4f4;
+    color: #333;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    
+  }
+  
+  .tamna-pozadina{
+    background: #333;
+    color: #fff;
+  }
+  
+  .bijela-pozadina{
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .plava-pozadina{
+    background: #8ab9f7;
+    color: #333;
+  }
+ 
+  #testSat{
+    text-align: center; 
+    position:relative ;
+    top: 10px;
+    left: 5%;
+  }
+
+  .odvoji{
+    padding:40px 0 10px 0 ;
+  }
+
+
+#navigacijska-traka{
+    background:#333;
+    color:#fff;
+    overflow:auto;
+    
+}
+
+#navigacijska-traka a{
+    color:#fff
+}
+
+#navigacijska-traka h1{
+    float:left;
+    padding-top:15px;
+}
+
+#navigacijska-traka ul{
+    list-style:none;
+    float:right;
+}
+
+#navigacijska-traka ul li {
+ float:left;
+}
+
+#navigacijska-traka ul li a{
+    display:block;
+    padding:20px;
+    text-align: center;
+}
+
+#navigacijska-traka ul li a:hover,
+ #navigacijska-traka ul li a.trenutna{
+    background:#444;
+    color:#8ab9f7;
+}
+
+#naslovna{
+    background-image: url('../img/cockpit.jpg');
+    
+}
+
+#naslovna .naslovna-sadrzaj{
+    color:#fff;
+    text-align:center;
+    padding-top:500px;
+}
+
+#naslovna .naslovna-sadrzaj h1{
+    font-size:75px;
+    line-height:1.2em;
+}
+
+#naslovna .naslovna-sadrzaj p{
+    padding-bottom:20px;
+    line-height: 1.7em;
+}
+#pocetna-ukratko {
+    height: 400px;
+  }
+  
+  #pocetna-ukratko .ukratko-slika {
+    float: left;
+    width: 50%;
+    background: url('../img/welcome.jpg') no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #pocetna-ukratko .ukratko-sadrzaj {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 60px 60px;  
+  }
+  
+  #pocetna-ukratko .ukratko-sadrzaj p {
+    padding-bottom: 30px;
+  }
+
+.box{
+    float:left;
+    padding:60px;
+    text-align:center;
+    width: 33.33%;
+}
+.box-kontakt{
+  float:left;
+  padding: 18px 10px 0px 20px;
+  text-align:center;
+  width: 20%;
+}
+
+#historijat-info .info-desno{
+    float:right;
+    width:50%;
+    min-height:100%;
+    padding-bottom: 8px;
+}
+#historijat-info .info-lijevo{
+    float:left;
+    width:50%;
+    min-height: 100%;
+}
+
+#historijat-info .info-desno img{
+    display:block;
+    margin:auto;
+    width:70%;
+    border-radius:50%;
+}
+#citati{
+    height:600px;
+    background:url('../img/proba.jpg') no-repeat center center/cover;
+    padding-top:100px;
+}
+
+#citati .citat img{
+    width:100px;
+    float:left;
+    margin-right:40px;
+    border-radius:50%;
+}
+
+#citati  h2{
+    color:#fff;
+    text-align:center;
+    padding-bottom:55px;
+}
+
+#citati .citat{
+    padding:20px;
+    margin-bottom:40px;
+    border-radius:5px;
+    opacity: 0.85;
+}
+
+#historijat-sekcija {
+    height: 400px;
+  }
+  
+  #historijat-sekcija .historijat-slika-desno {
+    float: right;
+    width: 50%;
+    background: url('../img/welcome.jpg') no-repeat;
+    min-height: 100%;
+    
+  }
+  
+  #historijat-sekcija .historijat-sadrzaj-lijevo {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+  }
+  
+  #historijat-sekcija .historijat-sadrzaj p {
+    padding-bottom: 30px;
+  }
+  /*Historijat slika lijevo*/
+  
+  #historijat-sekcija .historijat-slika-lijevo {
+    float: left;
+    width: 50%;
+    background: url('../img/welcome.jpg') no-repeat;
+    min-height: 100%;
+  }
+  
+  #historijat-sekcija .historijat-sadrzaj-desno {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+  }
+  #historijat-sekcija .historijat-slika-lijevo-1930-1965 {
+    float: left;
+    width: 50%;
+    background: url('../img/poljana.jpeg') no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  #historijat-sekcija .historijat-slika-desno-1965-1984 {
+    float: right;
+    width: 50%;
+    background: url('../img/aerodrom-100.jpeg') no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  #historijat-sekcija .historijat-slika-lijevo-1984-1992 {
+    float: left;
+    width: 50%;
+    background: url('../img/aerodrom003.jpg') no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  #historijat-sekcija .historijat-slika-desno-1992-1995 {
+    float: right;
+    width: 50%;
+    background: url('../img/aerodrom004.jpeg') no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  #historijat-sekcija .historijat-slika-lijevo-1996-danas {
+    float: left;
+    width: 50%;
+    background: url('../img/aerodrom-005.jpg') no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .div2{
+    
+      margin: auto;
+      margin-top: 50px;
+      background-color: none;
+      text-align: center;
+  }
+
+  .polje1{ 
+      width: 250px;
+      height: 40px;
+      font-size: 16px; 
+      text-align: center;
+      background-color: #444;
+      color: #fff;
+  }
+
+  .polje2{ 
+    width: 350px;
+    height: 160px;
+    font-size: 16px; 
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+  
+}
+#kontakt-pozadina{
+  background-image: url("../img/aerodrom-kontakt.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+#pocetna-ukratko .ukratko-slika:hover {
+  position: relative;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+  z-index: 1000;
+}
+#historijat-sekcija .historijat-slika-lijevo-1930-1965:hover {
+  position: relative;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+  z-index: 1000;
+}
+#historijat-sekcija .historijat-slika-desno-1965-1984:hover {
+  position: relative;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+  z-index: 1000;
+}
+#historijat-sekcija .historijat-slika-lijevo-1984-1992:hover {
+  position: relative;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+  z-index: 1000;
+}
+#historijat-sekcija .historijat-slika-desno-1992-1995:hover {
+  position: relative;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+  z-index: 1000;
+}
+#historijat-sekcija .historijat-slika-lijevo-1996-danas:hover {
+  position: relative;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+  z-index: 1000;
+}
+*{
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.mjSlide {
+  display: none;
+}
+
+.slider-div {
+  margin:7% 20% 0% 20%;
+  max-width: 70%;
+}
+
+.vrati, .naredna {
+  cursor: pointer;
+  position: absolute;
+  top: 18%;
+  width: auto;
+  padding: 20px;
+  margin-top: 16%;
+  color: rgb(212, 18, 18);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 6px 6px 0;
+  user-select: none;
+}
+
+.naredna {
+  right: 20%;
+  border-radius: 3px 0 0 3px;
+}
+
+.vrati:hover, .naredna:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.tacka {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 10px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .tacka:hover {
+  background-color: #3c3a8d;
+}
+
+.oblik {
+  -webkit-animation-name: oblik;
+  -webkit-animation-duration: 1.5s;
+  animation-name: oblik;
+  animation-duration: 1.5s;
+}
+
+#slider{
+  color: white;
+  text-align: center;
+}
